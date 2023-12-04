@@ -2,8 +2,9 @@
 
 int main(void)
 {
-	char *str = "to be, or not to be, that is the question";
-	char *new = replace(str, "to", "i really really love spaghetti");
+	char *str = "taylor swift";
+	char *new = replace(str, "swift", "slow");
 	printf("original: %s\n", str);
 	printf("new: %s\n", new);
+	free(new);
 }

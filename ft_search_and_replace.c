@@ -1,6 +1,4 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include <string.h>
+#include "ft_search_and_replace.h"
 
 int	ft_strlen(const char *s)
 {
